@@ -5,7 +5,7 @@ contract MyContract {
     //In solidity we need to define type of the state variables, in this case our state variable is string
     string value;
     
-    //In solidity, we have a function called constructer that automatically runs when we deploy a smart contract to the blockchain. Also if we want functions to be accessable to everyone, we need to make them public.
+    //In solidity, we have a function called constructor that automatically runs when we deploy a smart contract to the blockchain. Also if we want functions to be accessable to everyone, we need to make them public.
     constructor() public {
         value = "myValue";
     }
